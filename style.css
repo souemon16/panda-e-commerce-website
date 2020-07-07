@@ -1,0 +1,138 @@
+.container{
+    margin-bottom: 100px;
+  
+}
+
+/* NAVBAR SECTION */
+.navbar{
+    border-radius: 5px;
+    padding: 10px 40px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+/* NAVBAR SECTION */
+
+
+
+/* CAROUSEL SECTION */
+.price{
+    color:lightslategrey;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+#carousel{
+    background-color: #fceae8;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px lightpink;
+}
+
+/* CAROUSEL SECTION */
+
+
+/* CATEGORIES SECTION  */
+
+#bags{
+    background: #11998e;  
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  
+background: linear-gradient(to right, #38ef7d, #11998e); 
+box-shadow: 10px 10px 30px lightgreen;
+}
+
+#shoes{
+    background: #fc4a1a; 
+background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  
+background: linear-gradient(to right, #f7b733, #fc4a1a); 
+box-shadow: 10px 10px 30px lightsalmon;
+}
+#watch{
+    background: #1A2980; 
+background: -webkit-linear-gradient(to right, #26D0CE, #1A2980); 
+background: linear-gradient(to right, #26D0CE, #1A2980);
+box-shadow: 10px 10px 30px lightblue; 
+}
+
+.cg{
+    margin: 0px 15px; 
+    padding: 10px 12px;
+}
+
+.cg:hover{
+    color: white;
+}
+
+.cg:hover img{
+    animation-name: move;
+    animation-duration: 0.8s;
+    animation-direction: normal;
+}
+
+@keyframes move{
+    0%{
+        transform: rotate(0deg);
+    }
+    35%{
+        transform: rotate(15deg);
+    }
+    70%{
+        transform: rotate(-15deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+
+/* CATEGORIES SECTION  */
+
+
+
+
+/* SHOES SECTION  */
+.card{
+    border:none;
+    border-radius: 5px;
+}
+
+#first-shoe{
+    box-shadow: 10px 10px 30px rgb(238, 238, 170);
+}
+#second-shoe{
+    box-shadow: 10px 10px 30px rgb(122, 150, 177);
+}
+#third-shoe{
+    box-shadow: 10px 10px 30px lightcoral;
+}
+/* SHOES SECTION  */
+
+
+
+/* BAGPACK SECTION  */
+#first-bag{
+    box-shadow: 10px 10px 30px lightcoral;
+}
+#second-bag{
+    box-shadow: 10px 10px 30px rgb(97, 165, 228);
+}
+#third-bag{
+    box-shadow: 10px 10px 30px lightslategray;
+}
+/* BAGPACK SECTION  */
+
+/* CONTACTUS SECTION  */
+#contactUs-section{
+    background-color: #fceae8;
+    height: 400px;
+    box-shadow: 10px 10px 40px lightpink;
+    border-radius: 7px;
+    font-family: monospace;
+}
+.email-sub:hover{
+    color: whitesmoke;
+    background-color: lightslategray;
+}
+/* CONTACTUS SECTION  */
+
+/* FOOTER SECTION  */
+
+/* FOOTER SECTION  */
